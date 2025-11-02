@@ -1,0 +1,158 @@
+Financial Knowledge RAG Pipeline v1.0.0
+Repository Structure
+================================================================================
+
+models/
+│
+├── 📄 Root Configuration & Documentation
+│   ├── README.md                          # Main project documentation
+│   ├── LICENSE                            # CC BY-SA 4.0 license
+│   ├── VERSION                            # Version number (1.0.0)
+│   ├── CHANGELOG.md                       # Version history
+│   ├── requirements.txt                   # Python dependencies
+│   ├── setup.py                           # Package installation
+│   ├── MANIFEST.in                        # Package manifest
+│   ├── .gitignore                         # Git ignore rules
+│   ├── PROJECT_STRUCTURE.md               # Structure documentation
+│   ├── MIGRATION_GUIDE.md                 # Migration from old structure
+│   ├── RELEASE_CHECKLIST.md               # Pre-release checklist
+│   ├── QUICK_REFERENCE.md                 # Quick command reference
+│   ├── GIT_READY_SUMMARY.md               # Git preparation summary
+│   └── V1.0.0_PREPARATION_SUMMARY.md      # Preparation details
+│
+├── 🔧 src/ - Source Code (26 files)
+│   │
+│   ├── __init__.py                        # Package initialization
+│   │
+│   ├── core/                              # Core RAG Pipelines
+│   │   ├── __init__.py
+│   │   ├── hybrid_rag_pipeline.py         # Tiered hybrid approach ⭐
+│   │   ├── structured_rag_pipeline.py     # Context-aware Q&A
+│   │   └── rag_pipeline.py                # Basic RAG pipeline
+│   │
+│   ├── generators/                        # Q&A Data Generators
+│   │   ├── __init__.py
+│   │   ├── comprehensive_qa_generator.py  # Main Q&A generator
+│   │   ├── structured_qa_generator.py     # Structured generator
+│   │   └── google_doc_processor.py        # Google Doc processor
+│   │
+│   ├── utils/                             # Utility Modules
+│   │   ├── __init__.py
+│   │   ├── data_preprocessor.py           # HTML to text processing
+│   │   ├── vector_db_setup.py             # Vector database setup
+│   │   ├── qa_content_manager.py          # Q&A management
+│   │   └── data_quality_checker.py        # Quality validation
+│   │
+│   └── pipelines/                         # Pipeline Configurations
+│       ├── __init__.py
+│       └── setup_hybrid_rag.py            # Hybrid RAG setup
+│
+├── 📜 scripts/ - Standalone Scripts (7 files)
+│   │
+│   ├── scraping/                          # Web Scrapers
+│   │   ├── scrape_bogleheads_wiki.py     # Wiki scraper
+│   │   └── scrape_bogleheads.py          # Forum scraper
+│   │
+│   ├── setup/                             # Setup Scripts
+│   │   ├── setup_repository.py           # Complete setup
+│   │   └── setup_rag_pipeline.py         # RAG pipeline setup
+│   │
+│   └── tools/                             # Utility Tools
+│       ├── data_distribution.py          # Data distribution
+│       ├── privacy_verification.py       # Privacy verification
+│       └── binary_files_checker.sh       # Binary file checker
+│
+├── 🧪 tests/ - Test Suite (4 files)
+│   ├── __init__.py
+│   ├── test_pipeline.py                   # Pipeline tests
+│   ├── test_rag_comparison.py             # Comparison tests
+│   └── test_verbosity.py                  # Verbosity tests
+│
+├── 📚 docs/ - Documentation (9 files)
+│   ├── CONTRIBUTING.md                    # Contribution guide
+│   ├── PRIVACY.md                         # Privacy policy
+│   ├── QUICK_START.md                     # Getting started
+│   ├── PROJECT_VISION.md                  # Project vision
+│   ├── RAG_BEST_PRACTICES.md              # Best practices
+│   ├── TRUSTED_SOURCES_GUIDE.md           # Trusted sources
+│   ├── DATA_SHARING_GUIDE.md              # Data sharing
+│   ├── GOOGLE_DOC_INTEGRATION.md          # Google Doc integration
+│   └── REPOSITORY_SUMMARY.md              # Repository summary
+│
+├── 📊 data/ - Data Files (3 files, ~38KB)
+│   │
+│   ├── sample/                            # Sample Data
+│   │   └── sample_qa_data.json           # Sample Q&A (2KB)
+│   │
+│   └── qa/                                # Q&A Data
+│       ├── comprehensive_qa_data.json    # Full Q&A data (32KB)
+│       └── structured_qa_data.json       # Structured Q&A (4KB)
+│
+├── 📦 distribution/ - Distribution Package (6 files)
+│   ├── bogleheads_qa_data.json           # Enhanced Q&A data
+│   ├── comprehensive_qa_data.json        # Comprehensive Q&A
+│   ├── install_qa_data.py                # Installation script
+│   ├── README.md                         # Package documentation
+│   ├── categories.md                     # Category descriptions
+│   └── sample_questions.md               # Example questions
+│
+├── 💡 examples/ - Example Files (1 file)
+│   └── financial_advice_20yo.txt         # Example document
+│
+└── 🗂️ Generated Directories (NOT in Git)
+    ├── vector_db/                         # Vector database (267MB) ❌
+    ├── structured_vector_db/              # Structured vectors (16MB) ❌
+    ├── qa_vector_db/                      # Q&A vectors ❌
+    ├── processed_data/                    # Processed documents (18MB) ❌
+    ├── wiki_pages/                        # Scraped pages (76MB) ❌
+    ├── wiki_data/                         # Wiki data ❌
+    ├── qa_backups/                        # Q&A backups ❌
+    └── mistral-7b-instruct-v0.1.Q4_K_M.gguf  # Model file (4.1GB) ❌
+
+================================================================================
+Statistics:
+================================================================================
+
+Files to Commit:
+  • Root files: 14
+  • Source code: 26 (src/ + scripts/ + tests/)
+  • Documentation: 9 (docs/)
+  • Data files: 9 (data/ + distribution/ + examples/)
+  • Total: ~60 files
+  • Size: <50MB
+
+Files Excluded (via .gitignore):
+  • Model file: 4.1GB
+  • Vector databases: 283MB
+  • Scraped data: 76MB
+  • Processed data: 18MB
+  • Reports: 9.4MB
+  • Total excluded: ~4.5GB
+
+================================================================================
+Console Commands (after pip install -e .):
+================================================================================
+
+  financial-rag                  # Run hybrid RAG pipeline
+  financial-rag --verbose        # Run with debug output
+  financial-rag-structured       # Run structured RAG pipeline
+  financial-qa-manager           # Manage Q&A content
+
+================================================================================
+Key Features:
+================================================================================
+
+  ✅ Privacy-First: 100% local processing, no external API calls
+  ✅ Hybrid Approach: Q&A data → Documents → Base LLM knowledge
+  ✅ Package Support: Install via pip, console scripts included
+  ✅ Comprehensive Docs: 15+ documentation files
+  ✅ Well Organized: Clear separation of concerns
+  ✅ Test Suite: Comprehensive testing included
+  ✅ Small Repository: <50MB (large files excluded)
+  ✅ Easy Setup: Automated setup scripts
+  ✅ Verbosity Control: Quiet or verbose modes
+  ✅ Quality Assured: Data validation and quality checking
+
+================================================================================
+Ready for v1.0.0 Release! 🎉
+================================================================================

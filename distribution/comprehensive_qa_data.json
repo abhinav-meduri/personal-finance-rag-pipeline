@@ -1,0 +1,598 @@
+{
+  "metadata": {
+    "total_qa_pairs": 26,
+    "categories": [
+      "traditional_ira_basics",
+      "traditional_ira_contributions",
+      "traditional_ira_withdrawals",
+      "traditional_ira_tax",
+      "roth_ira_basics",
+      "roth_ira_contributions",
+      "roth_ira_withdrawals",
+      "roth_ira_tax",
+      "401k_basics",
+      "401k_contributions",
+      "401k_withdrawals",
+      "index_funds",
+      "asset_allocation",
+      "diversification",
+      "tax_optimization",
+      "social_security",
+      "rmd_rules",
+      "estate_planning",
+      "ira_comparisons",
+      "account_comparisons"
+    ],
+    "category_counts": {
+      "traditional_ira_basics": 1,
+      "traditional_ira_contributions": 1,
+      "traditional_ira_withdrawals": 1,
+      "traditional_ira_tax": 1,
+      "roth_ira_basics": 1,
+      "roth_ira_contributions": 1,
+      "roth_ira_withdrawals": 2,
+      "roth_ira_tax": 1,
+      "401k_basics": 1,
+      "401k_contributions": 1,
+      "401k_withdrawals": 1,
+      "index_funds": 2,
+      "asset_allocation": 1,
+      "diversification": 1,
+      "tax_optimization": 2,
+      "social_security": 2,
+      "rmd_rules": 1,
+      "estate_planning": 2,
+      "ira_comparisons": 2,
+      "account_comparisons": 1
+    },
+    "sources": [
+      "Unknown"
+    ]
+  },
+  "qa_pairs": [
+    {
+      "question": "What is a Traditional IRA?",
+      "answer": "A Traditional IRA is an individual retirement account that allows tax-deductible contributions with tax-deferred growth. Withdrawals are taxed as ordinary income.",
+      "context": "Traditional IRA definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "traditional_ira_basics",
+      "confidence": "high"
+    },
+    {
+      "question": "What are Traditional IRA contribution limits?",
+      "answer": "For 2024-2025, the Traditional IRA contribution limit is $7,000 ($8,000 for those age 50 or older).",
+      "context": "Traditional IRA contribution rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "traditional_ira_contributions",
+      "confidence": "high"
+    },
+    {
+      "question": "When do Traditional IRAs require minimum distributions?",
+      "answer": "Traditional IRAs require minimum distributions beginning at age 73 for most investors.",
+      "context": "Traditional IRA RMD rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "traditional_ira_withdrawals",
+      "confidence": "high"
+    },
+    {
+      "question": "Are Traditional IRA contributions tax-deductible?",
+      "answer": "Traditional IRA contributions may be tax-deductible depending on income level and whether you are covered by an employer retirement plan.",
+      "context": "Traditional IRA tax rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "traditional_ira_tax",
+      "confidence": "high"
+    },
+    {
+      "question": "What is a Roth IRA?",
+      "answer": "A Roth IRA is an individual retirement account with after-tax contributions and tax-free growth and withdrawals for qualified distributions.",
+      "context": "Roth IRA definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "roth_ira_basics",
+      "confidence": "high"
+    },
+    {
+      "question": "What are Roth IRA contribution limits?",
+      "answer": "For 2024-2025, the Roth IRA contribution limit is $7,000 ($8,000 for those age 50 or older).",
+      "context": "Roth IRA contribution rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "roth_ira_contributions",
+      "confidence": "high"
+    },
+    {
+      "question": "Do Roth IRAs have required minimum distributions?",
+      "answer": "No, Roth IRAs have no required minimum distributions during the owner's lifetime.",
+      "context": "Roth IRA RMD rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "roth_ira_withdrawals",
+      "confidence": "high"
+    },
+    {
+      "question": "When can you make qualified withdrawals from a Roth IRA?",
+      "answer": "Qualified withdrawals from a Roth IRA can begin at age 59½, subject to the five-year holding period requirement.",
+      "context": "Roth IRA withdrawal rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "roth_ira_withdrawals",
+      "confidence": "high"
+    },
+    {
+      "question": "Are Roth IRA contributions tax-deductible?",
+      "answer": "No, Roth IRA contributions are not tax-deductible. They are made with after-tax dollars.",
+      "context": "Roth IRA tax rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "roth_ira_tax",
+      "confidence": "high"
+    },
+    {
+      "question": "What is a 401(k) plan?",
+      "answer": "A 401(k) is an employer-sponsored retirement plan that allows employees to contribute pre-tax dollars with potential employer matching.",
+      "context": "401(k) definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "401k_basics",
+      "confidence": "high"
+    },
+    {
+      "question": "What are 401(k) contribution limits?",
+      "answer": "For 2024-2025, the 401(k) elective deferral limit is $23,500 ($31,000 for those age 50 or older).",
+      "context": "401(k) contribution rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "401k_contributions",
+      "confidence": "high"
+    },
+    {
+      "question": "When can you withdraw from a 401(k) without penalty?",
+      "answer": "You can withdraw from a 401(k) without penalty at age 59½, or earlier for certain exceptions like disability or hardship.",
+      "context": "401(k) withdrawal rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "401k_withdrawals",
+      "confidence": "high"
+    },
+    {
+      "question": "What is an index fund?",
+      "answer": "An index fund is a mutual fund or ETF that tracks a specific market index, providing broad market exposure at low cost.",
+      "context": "Index fund definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "index_funds",
+      "confidence": "high"
+    },
+    {
+      "question": "What are the advantages of index funds?",
+      "answer": "Index funds offer low costs, broad diversification, tax efficiency, and typically outperform most actively managed funds over time.",
+      "context": "Index fund benefits",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "index_funds",
+      "confidence": "high"
+    },
+    {
+      "question": "What is asset allocation?",
+      "answer": "Asset allocation is the distribution of investments across different asset classes like stocks, bonds, and cash to manage risk and return.",
+      "context": "Asset allocation definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "asset_allocation",
+      "confidence": "high"
+    },
+    {
+      "question": "What is investment diversification?",
+      "answer": "Diversification is spreading investments across different assets, sectors, and geographic regions to reduce risk.",
+      "context": "Diversification definition",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "diversification",
+      "confidence": "high"
+    },
+    {
+      "question": "What are qualified dividends?",
+      "answer": "Qualified dividends are dividends that meet IRS requirements and are taxed at lower capital gains rates rather than ordinary income rates.",
+      "context": "Qualified dividends",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "tax_optimization",
+      "confidence": "high"
+    },
+    {
+      "question": "What are long-term capital gains?",
+      "answer": "Long-term capital gains are profits from selling investments held for more than one year, taxed at preferential rates.",
+      "context": "Capital gains tax",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "tax_optimization",
+      "confidence": "high"
+    },
+    {
+      "question": "When can you start collecting Social Security?",
+      "answer": "You can start collecting Social Security as early as age 62, but full retirement age is between 66-67 depending on birth year.",
+      "context": "Social Security benefits",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "social_security",
+      "confidence": "high"
+    },
+    {
+      "question": "What is the full retirement age for Social Security?",
+      "answer": "Full retirement age is 67 for those born in 1960 or later, 66 for those born 1943-1954, and varies for those born 1955-1959.",
+      "context": "Social Security full retirement age",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "social_security",
+      "confidence": "high"
+    },
+    {
+      "question": "What are Required Minimum Distributions (RMDs)?",
+      "answer": "RMDs are minimum amounts that must be withdrawn from traditional retirement accounts starting at age 73, based on account balance and life expectancy.",
+      "context": "RMD rules",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "rmd_rules",
+      "confidence": "high"
+    },
+    {
+      "question": "What is estate planning?",
+      "answer": "Estate planning involves arranging for the transfer of assets after death, including wills, trusts, and beneficiary designations.",
+      "context": "Estate planning basics",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "estate_planning",
+      "confidence": "high"
+    },
+    {
+      "question": "What is a beneficiary designation?",
+      "answer": "A beneficiary designation specifies who will receive assets from retirement accounts or life insurance policies upon your death.",
+      "context": "Beneficiary designations",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "estate_planning",
+      "confidence": "high"
+    },
+    {
+      "question": "What is the difference between Traditional and Roth IRAs?",
+      "answer": "Traditional IRAs offer tax-deductible contributions and tax-deferred growth, while Roth IRAs use after-tax contributions with tax-free growth and withdrawals.",
+      "context": "Traditional vs Roth IRA comparison",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "ira_comparisons",
+      "confidence": "high"
+    },
+    {
+      "question": "When should I choose a Traditional IRA over a Roth IRA?",
+      "answer": "Choose Traditional IRA if your current tax rate is higher than your expected retirement tax rate. Choose Roth IRA if your current rate is lower than expected retirement rate.",
+      "context": "Traditional vs Roth IRA decision",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "ira_comparisons",
+      "confidence": "high"
+    },
+    {
+      "question": "What is the difference between IRAs and 401(k)s?",
+      "answer": "IRAs are individual accounts with lower contribution limits but more investment choices. 401(k)s are employer-sponsored with higher limits but limited investment options.",
+      "context": "IRA vs 401(k) comparison",
+      "source": "Unknown",
+      "doc_id": "Unknown",
+      "category": "account_comparisons",
+      "confidence": "high"
+    }
+  ],
+  "categories": {
+    "traditional_ira_basics": [
+      {
+        "question": "What is a Traditional IRA?",
+        "answer": "A Traditional IRA is an individual retirement account that allows tax-deductible contributions with tax-deferred growth. Withdrawals are taxed as ordinary income.",
+        "context": "Traditional IRA definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "traditional_ira_basics",
+        "confidence": "high"
+      }
+    ],
+    "traditional_ira_contributions": [
+      {
+        "question": "What are Traditional IRA contribution limits?",
+        "answer": "For 2024-2025, the Traditional IRA contribution limit is $7,000 ($8,000 for those age 50 or older).",
+        "context": "Traditional IRA contribution rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "traditional_ira_contributions",
+        "confidence": "high"
+      }
+    ],
+    "traditional_ira_withdrawals": [
+      {
+        "question": "When do Traditional IRAs require minimum distributions?",
+        "answer": "Traditional IRAs require minimum distributions beginning at age 73 for most investors.",
+        "context": "Traditional IRA RMD rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "traditional_ira_withdrawals",
+        "confidence": "high"
+      }
+    ],
+    "traditional_ira_tax": [
+      {
+        "question": "Are Traditional IRA contributions tax-deductible?",
+        "answer": "Traditional IRA contributions may be tax-deductible depending on income level and whether you are covered by an employer retirement plan.",
+        "context": "Traditional IRA tax rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "traditional_ira_tax",
+        "confidence": "high"
+      }
+    ],
+    "roth_ira_basics": [
+      {
+        "question": "What is a Roth IRA?",
+        "answer": "A Roth IRA is an individual retirement account with after-tax contributions and tax-free growth and withdrawals for qualified distributions.",
+        "context": "Roth IRA definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "roth_ira_basics",
+        "confidence": "high"
+      }
+    ],
+    "roth_ira_contributions": [
+      {
+        "question": "What are Roth IRA contribution limits?",
+        "answer": "For 2024-2025, the Roth IRA contribution limit is $7,000 ($8,000 for those age 50 or older).",
+        "context": "Roth IRA contribution rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "roth_ira_contributions",
+        "confidence": "high"
+      }
+    ],
+    "roth_ira_withdrawals": [
+      {
+        "question": "Do Roth IRAs have required minimum distributions?",
+        "answer": "No, Roth IRAs have no required minimum distributions during the owner's lifetime.",
+        "context": "Roth IRA RMD rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "roth_ira_withdrawals",
+        "confidence": "high"
+      },
+      {
+        "question": "When can you make qualified withdrawals from a Roth IRA?",
+        "answer": "Qualified withdrawals from a Roth IRA can begin at age 59½, subject to the five-year holding period requirement.",
+        "context": "Roth IRA withdrawal rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "roth_ira_withdrawals",
+        "confidence": "high"
+      }
+    ],
+    "roth_ira_tax": [
+      {
+        "question": "Are Roth IRA contributions tax-deductible?",
+        "answer": "No, Roth IRA contributions are not tax-deductible. They are made with after-tax dollars.",
+        "context": "Roth IRA tax rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "roth_ira_tax",
+        "confidence": "high"
+      }
+    ],
+    "401k_basics": [
+      {
+        "question": "What is a 401(k) plan?",
+        "answer": "A 401(k) is an employer-sponsored retirement plan that allows employees to contribute pre-tax dollars with potential employer matching.",
+        "context": "401(k) definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "401k_basics",
+        "confidence": "high"
+      }
+    ],
+    "401k_contributions": [
+      {
+        "question": "What are 401(k) contribution limits?",
+        "answer": "For 2024-2025, the 401(k) elective deferral limit is $23,500 ($31,000 for those age 50 or older).",
+        "context": "401(k) contribution rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "401k_contributions",
+        "confidence": "high"
+      }
+    ],
+    "401k_withdrawals": [
+      {
+        "question": "When can you withdraw from a 401(k) without penalty?",
+        "answer": "You can withdraw from a 401(k) without penalty at age 59½, or earlier for certain exceptions like disability or hardship.",
+        "context": "401(k) withdrawal rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "401k_withdrawals",
+        "confidence": "high"
+      }
+    ],
+    "index_funds": [
+      {
+        "question": "What is an index fund?",
+        "answer": "An index fund is a mutual fund or ETF that tracks a specific market index, providing broad market exposure at low cost.",
+        "context": "Index fund definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "index_funds",
+        "confidence": "high"
+      },
+      {
+        "question": "What are the advantages of index funds?",
+        "answer": "Index funds offer low costs, broad diversification, tax efficiency, and typically outperform most actively managed funds over time.",
+        "context": "Index fund benefits",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "index_funds",
+        "confidence": "high"
+      }
+    ],
+    "asset_allocation": [
+      {
+        "question": "What is asset allocation?",
+        "answer": "Asset allocation is the distribution of investments across different asset classes like stocks, bonds, and cash to manage risk and return.",
+        "context": "Asset allocation definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "asset_allocation",
+        "confidence": "high"
+      }
+    ],
+    "diversification": [
+      {
+        "question": "What is investment diversification?",
+        "answer": "Diversification is spreading investments across different assets, sectors, and geographic regions to reduce risk.",
+        "context": "Diversification definition",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "diversification",
+        "confidence": "high"
+      }
+    ],
+    "tax_optimization": [
+      {
+        "question": "What are qualified dividends?",
+        "answer": "Qualified dividends are dividends that meet IRS requirements and are taxed at lower capital gains rates rather than ordinary income rates.",
+        "context": "Qualified dividends",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "tax_optimization",
+        "confidence": "high"
+      },
+      {
+        "question": "What are long-term capital gains?",
+        "answer": "Long-term capital gains are profits from selling investments held for more than one year, taxed at preferential rates.",
+        "context": "Capital gains tax",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "tax_optimization",
+        "confidence": "high"
+      }
+    ],
+    "social_security": [
+      {
+        "question": "When can you start collecting Social Security?",
+        "answer": "You can start collecting Social Security as early as age 62, but full retirement age is between 66-67 depending on birth year.",
+        "context": "Social Security benefits",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "social_security",
+        "confidence": "high"
+      },
+      {
+        "question": "What is the full retirement age for Social Security?",
+        "answer": "Full retirement age is 67 for those born in 1960 or later, 66 for those born 1943-1954, and varies for those born 1955-1959.",
+        "context": "Social Security full retirement age",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "social_security",
+        "confidence": "high"
+      }
+    ],
+    "rmd_rules": [
+      {
+        "question": "What are Required Minimum Distributions (RMDs)?",
+        "answer": "RMDs are minimum amounts that must be withdrawn from traditional retirement accounts starting at age 73, based on account balance and life expectancy.",
+        "context": "RMD rules",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "rmd_rules",
+        "confidence": "high"
+      }
+    ],
+    "estate_planning": [
+      {
+        "question": "What is estate planning?",
+        "answer": "Estate planning involves arranging for the transfer of assets after death, including wills, trusts, and beneficiary designations.",
+        "context": "Estate planning basics",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "estate_planning",
+        "confidence": "high"
+      },
+      {
+        "question": "What is a beneficiary designation?",
+        "answer": "A beneficiary designation specifies who will receive assets from retirement accounts or life insurance policies upon your death.",
+        "context": "Beneficiary designations",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "estate_planning",
+        "confidence": "high"
+      }
+    ],
+    "ira_comparisons": [
+      {
+        "question": "What is the difference between Traditional and Roth IRAs?",
+        "answer": "Traditional IRAs offer tax-deductible contributions and tax-deferred growth, while Roth IRAs use after-tax contributions with tax-free growth and withdrawals.",
+        "context": "Traditional vs Roth IRA comparison",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "ira_comparisons",
+        "confidence": "high"
+      },
+      {
+        "question": "When should I choose a Traditional IRA over a Roth IRA?",
+        "answer": "Choose Traditional IRA if your current tax rate is higher than your expected retirement tax rate. Choose Roth IRA if your current rate is lower than expected retirement rate.",
+        "context": "Traditional vs Roth IRA decision",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "ira_comparisons",
+        "confidence": "high"
+      }
+    ],
+    "account_comparisons": [
+      {
+        "question": "What is the difference between IRAs and 401(k)s?",
+        "answer": "IRAs are individual accounts with lower contribution limits but more investment choices. 401(k)s are employer-sponsored with higher limits but limited investment options.",
+        "context": "IRA vs 401(k) comparison",
+        "source": "Unknown",
+        "doc_id": "Unknown",
+        "category": "account_comparisons",
+        "confidence": "high"
+      }
+    ]
+  },
+  "distribution_metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-07-12T19:37:03.847474",
+    "source": "Bogleheads Wiki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution_required": true,
+    "file_size_bytes": 22473,
+    "checksum": "cd6d4cc6836cbe0b012983b1e6f64e50ab96ac422eda1a6d4f98a77e1c2b2ad8",
+    "total_categories": 20,
+    "quality_score": 100.0
+  },
+  "category_descriptions": {
+    "traditional_ira_basics": "Basic information about Traditional IRAs",
+    "traditional_ira_contributions": "Traditional IRA contribution rules and limits",
+    "traditional_ira_withdrawals": "Traditional IRA withdrawal rules and RMDs",
+    "traditional_ira_tax": "Tax implications of Traditional IRAs",
+    "roth_ira_basics": "Basic information about Roth IRAs",
+    "roth_ira_contributions": "Roth IRA contribution rules and limits",
+    "roth_ira_withdrawals": "Roth IRA withdrawal rules and requirements",
+    "roth_ira_tax": "Tax implications of Roth IRAs",
+    "401k_basics": "Basic information about 401(k) plans",
+    "401k_contributions": "401(k) contribution rules and limits",
+    "401k_withdrawals": "401(k) withdrawal rules and requirements",
+    "index_funds": "Information about index funds and their benefits",
+    "asset_allocation": "Asset allocation strategies and principles",
+    "diversification": "Investment diversification concepts",
+    "tax_optimization": "Tax optimization strategies for investments",
+    "social_security": "Social Security benefits and planning",
+    "rmd_rules": "Required Minimum Distribution rules",
+    "estate_planning": "Estate planning considerations",
+    "ira_comparisons": "Comparisons between different IRA types",
+    "account_comparisons": "Comparisons between different account types"
+  }
+}

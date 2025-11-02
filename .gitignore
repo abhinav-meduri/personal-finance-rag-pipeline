@@ -1,0 +1,113 @@
+# Large model files (4.1GB - download separately)
+*.gguf
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+
+# Vector databases (can be regenerated from data)
+vector_db/
+structured_vector_db/
+qa_vector_db/
+*.sqlite3
+*.db
+*.pickle
+
+# Raw wiki data (can be re-scraped, 76MB)
+wiki_pages/
+wiki_data/
+data/
+
+# Processed documents (can be re-generated, 18MB)
+processed_data/
+processed_docs/
+documents/
+all_documents.json
+
+# Large generated data files
+data_quality_report.json
+data_quality_report_fixes.json
+comparison_results/
+
+# Generated Q&A data (keep only the main ones)
+dynamic_qa_data.json
+enhanced_qa_data.json
+expanded_qa_data.json
+
+# Test output files
+test_output/
+*.test.json
+
+# Backups and temporary files
+qa_backups/
+*.backup
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json 
