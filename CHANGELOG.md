@@ -65,11 +65,11 @@ This is the first stable release of the Financial Knowledge RAG Pipeline, a priv
 - And many more...
 
 #### Privacy Features
-- ✅ No external API calls during queries
-- ✅ No data collection or transmission
-- ✅ No model training on user data
-- ✅ Complete offline capability after setup
-- ✅ Open source for transparency
+- No external API calls during queries
+- No data collection or transmission
+- No model training on user data
+- Complete offline capability after setup
+- Open source for transparency
 
 ### Project Structure
 - Organized codebase with clear separation of concerns

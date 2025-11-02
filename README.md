@@ -4,19 +4,19 @@
 
 A Retrieval-Augmented Generation (RAG) pipeline that combines knowledge from trusted financial sources (such as Bogleheads Wiki) with Mistral-7b for intelligent financial advice and question answering.
 
-## 🔒 **Privacy First: 100% Local Processing**
+## Privacy First: 100% Local Processing
 
 **Your financial data and queries remain completely private and local to your computer.**
 
-- ✅ **No External API Calls**: All processing happens locally
-- ✅ **No Data Collection**: Your queries are never stored or transmitted
-- ✅ **No Model Training**: Pre-trained models only, no learning from your data
-- ✅ **Complete Offline Capability**: Works without internet after initial setup
-- ✅ **Open Source**: Fully inspectable code for transparency
+- **No External API Calls**: All processing happens locally
+- **No Data Collection**: Your queries are never stored or transmitted
+- **No Model Training**: Pre-trained models only, no learning from your data
+- **Complete Offline Capability**: Works without internet after initial setup
+- **Open Source**: Fully inspectable code for transparency
 
-**📖 [Complete Privacy Policy](PRIVACY.md) | 🔍 [Privacy Verification Guide](PRIVACY.md#privacy-verification-steps)**
+**[Complete Privacy Policy](PRIVACY.md) | [Privacy Verification Guide](PRIVACY.md#privacy-verification-steps)**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Automated Setup (Recommended)
 ```bash
@@ -52,7 +52,7 @@ python src/utils/data_preprocessor.py
 python src/generators/comprehensive_qa_generator.py
 ```
 
-## 📋 What's Included
+## What's Included
 
 ### Core Components
 - **Structured RAG Pipeline**: Context-aware Q&A system that avoids confusion
@@ -62,14 +62,14 @@ python src/generators/comprehensive_qa_generator.py
 - **Vector Database Setup**: Efficient document storage and retrieval
 
 ### Key Features
-- **🔒 Complete Privacy**: 100% local processing, no external API calls
+- **Complete Privacy**: 100% local processing, no external API calls
 - **Context-Aware Answers**: Eliminates confusion between similar topics (e.g., Roth vs Traditional IRA)
 - **Factual Accuracy**: Structured Q&A format reduces hallucinations
 - **Easy Management**: Add, update, and validate Q&A pairs
 - **Scalable**: Works with any knowledge base
 - **Local Deployment**: Runs entirely on your machine
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -82,17 +82,17 @@ python src/generators/comprehensive_qa_generator.py
 │                 │    │                 │    │                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 
-🔒 ALL COMPONENTS RUN LOCALLY ON YOUR COMPUTER
+ALL COMPONENTS RUN LOCALLY ON YOUR COMPUTER
    • No external API calls during queries
    • No data transmission to third parties
    • Complete privacy and security
 ```
 
-## 📁 Repository Structure (v1.0.0)
+## Repository Structure (v1.0.0)
 
 ```
 models/
-├── src/                               # 🔧 Source Code
+├── src/                               # Source Code
 │   ├── core/                          # Core RAG pipelines
 │   │   ├── hybrid_rag_pipeline.py    # Tiered hybrid approach
 │   │   ├── structured_rag_pipeline.py # Context-aware Q&A
@@ -112,7 +112,7 @@ models/
 │   └── pipelines/                     # Pipeline configurations
 │       └── setup_hybrid_rag.py
 │
-├── scripts/                           # 📜 Standalone Scripts
+├── scripts/                           # Standalone Scripts
 │   ├── scraping/                      # Web scrapers
 │   │   ├── scrape_bogleheads_wiki.py
 │   │   └── scrape_bogleheads.py
@@ -126,12 +126,12 @@ models/
 │       ├── privacy_verification.py
 │       └── binary_files_checker.sh
 │
-├── tests/                             # 🧪 Test Suite
+├── tests/                             # Test Suite
 │   ├── test_pipeline.py
 │   ├── test_rag_comparison.py
 │   └── test_verbosity.py
 │
-├── docs/                              # 📚 Documentation
+├── docs/                              # Documentation
 │   ├── CONTRIBUTING.md
 │   ├── PRIVACY.md
 │   ├── QUICK_START.md
@@ -142,7 +142,7 @@ models/
 │   ├── GOOGLE_DOC_INTEGRATION.md
 │   └── REPOSITORY_SUMMARY.md
 │
-├── data/                              # 📊 Data Files
+├── data/                              # Data Files
 │   ├── sample/
 │   │   └── sample_qa_data.json       # Sample data for testing
 │   │
@@ -150,7 +150,7 @@ models/
 │       ├── comprehensive_qa_data.json # Full Q&A knowledge base
 │       └── structured_qa_data.json   # Focused Q&A pairs
 │
-├── distribution/                      # 📦 Distribution Packages
+├── distribution/                      # Distribution Packages
 │   ├── bogleheads_qa_data.json
 │   ├── comprehensive_qa_data.json
 │   ├── install_qa_data.py
@@ -158,10 +158,10 @@ models/
 │   ├── categories.md
 │   └── sample_questions.md
 │
-├── examples/                          # 💡 Example Files
+├── examples/                          # Example Files
 │   └── financial_advice_20yo.txt
 │
-├── 📄 Project Files
+├── Project Files
 │   ├── README.md                      # This file
 │   ├── LICENSE                        # CC BY-SA 4.0
 │   ├── VERSION                        # 1.0.0
@@ -172,7 +172,7 @@ models/
 │   ├── QUICK_REFERENCE.md             # Quick command reference
 │   └── RELEASE_CHECKLIST.md           # Release preparation
 │
-└── 🗂️ Generated Directories (not in Git)
+└── Generated Directories (not in Git)
     ├── vector_db/                     # Vector database (267MB)
     ├── structured_vector_db/          # Structured vectors (16MB)
     ├── qa_vector_db/                  # Q&A vectors
@@ -181,7 +181,7 @@ models/
     └── qa_backups/                    # Q&A backups
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Interactive Mode
 ```bash
@@ -244,7 +244,7 @@ financial-qa-manager --add
 financial-qa-manager --search "Roth IRA"
 ```
 
-## 📦 Q&A Data Package
+## Q&A Data Package
 
 ### Quick Start with Pre-Processed Data
 
@@ -264,12 +264,12 @@ python distribution/install_qa_data.py
 
 ### What's Included in the Q&A Package
 
-- ✅ **26 High-Quality Q&A Pairs** covering key financial topics
-- ✅ **20 Categories** including IRAs, 401(k)s, investments, taxes, etc.
-- ✅ **Context-Aware Answers** that avoid confusion between similar topics
-- ✅ **High Confidence Scores** indicating reliable information
-- ✅ **Proper Attribution** to trusted financial sources
-- ✅ **Easy Integration** with the RAG pipeline
+- **26 High-Quality Q&A Pairs** covering key financial topics
+- **20 Categories** including IRAs, 401(k)s, investments, taxes, etc.
+- **Context-Aware Answers** that avoid confusion between similar topics
+- **High Confidence Scores** indicating reliable information
+- **Proper Attribution** to trusted financial sources
+- **Easy Integration** with the RAG pipeline
 
 ### Categories Covered
 
@@ -283,13 +283,13 @@ python distribution/install_qa_data.py
 
 ### Benefits of Using the Q&A Package
 
-1. **🚀 Instant Setup**: No need to scrape wiki pages
-2. **📊 Proven Quality**: Pre-validated Q&A pairs with high confidence
-3. **🎯 Focused Answers**: Context-aware responses that avoid confusion
-4. **📈 Better Performance**: Faster queries and more accurate results
-5. **🔄 Easy Updates**: Simple to add new Q&A pairs as needed
+1. **Instant Setup**: No need to scrape wiki pages
+2. **Proven Quality**: Pre-validated Q&A pairs with high confidence
+3. **Focused Answers**: Context-aware responses that avoid confusion
+4. **Better Performance**: Faster queries and more accurate results
+5. **Easy Updates**: Simple to add new Q&A pairs as needed
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Settings
 - **LLM**: Mistral-7b-instruct (4-bit quantized)
@@ -302,18 +302,18 @@ python distribution/install_qa_data.py
 - **Query Speed**: 2-5 seconds per question
 - **Vector Search**: <1 second
 
-## 🤝 Contributing
+## Contributing
 
 ### Adding New Q&A Pairs
-1. Use the content manager: `python qa_content_manager.py --add`
-2. Or edit `comprehensive_qa_data.json` directly
-3. Validate your changes: `python qa_content_manager.py --validate`
+1. Use the content manager: `python src/utils/qa_content_manager.py --add`
+2. Or edit `data/qa/comprehensive_qa_data.json` directly
+3. Validate your changes: `python src/utils/qa_content_manager.py --validate`
 
 ### Improving the Knowledge Base
-1. **Scrape new content**: `python scrape_bogleheads_wiki.py`
-2. **Generate Q&A pairs**: `python comprehensive_qa_generator.py`
-3. **Quality check**: `python data_quality_checker.py`
-4. **Test changes**: `python test_pipeline.py`
+1. **Scrape new content**: `python scripts/scraping/scrape_bogleheads_wiki.py`
+2. **Generate Q&A pairs**: `python src/generators/comprehensive_qa_generator.py`
+3. **Quality check**: `python src/utils/data_quality_checker.py`
+4. **Test changes**: `python tests/test_pipeline.py`
 5. **Expert curation**: Use the content manager for domain expert contributions
 
 ### Code Contributions
@@ -323,7 +323,7 @@ python distribution/install_qa_data.py
 4. Test thoroughly
 5. Submit a pull request
 
-## 📊 Performance Benefits
+## Performance Benefits
 
 ### Structured Q&A vs Document RAG
 | Aspect | Document RAG | Structured Q&A |
@@ -334,27 +334,28 @@ python distribution/install_qa_data.py
 | **Maintenance** | Complex document management | Simple Q&A curation |
 | **Scalability** | Limited by document size | Scales with Q&A pairs |
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 ```bash
-python test_pipeline.py
-python test_rag_comparison.py
+python tests/test_pipeline.py
+python tests/test_rag_comparison.py
+python tests/test_verbosity.py
 ```
 
 ### Test Specific Components
 ```bash
 # Test structured RAG
-python structured_rag_pipeline.py --question "What is a Roth IRA?"
+python src/core/structured_rag_pipeline.py --question "What is a Roth IRA?"
 
 # Test Q&A management
-python qa_content_manager.py --validate
+python src/utils/qa_content_manager.py --validate
 
 # Test data quality
-python data_quality_checker.py
+python src/utils/data_quality_checker.py
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -377,18 +378,18 @@ python data_quality_checker.py
 4. **Vector Database Issues**
    ```bash
    # Recreate vector database
-   python vector_db_setup.py --recreate
+   python src/utils/vector_db_setup.py --recreate
    ```
 
 5. **Privacy Verification**
    ```bash
    # Verify no network activity during queries
    sudo tcpdump -i any -w query_monitor.pcap
-   python hybrid_rag_pipeline.py --question "What is a Roth IRA?"
+   python src/core/hybrid_rag_pipeline.py --question "What is a Roth IRA?"
    # Check: no network packets during query processing
    ```
 
-## 📈 Roadmap
+## Roadmap
 
 ### Phase 1: Foundation (Current)
 - [x] Structured Q&A approach for accuracy
@@ -421,20 +422,20 @@ python data_quality_checker.py
 - [ ] Create global expert community for financial education
 - [ ] Enable real-time regulatory compliance updates
 
-## 📄 License
+## License
 
 This project is licensed under **Creative Commons Attribution-ShareAlike 4.0 International License** (CC BY-SA 4.0).
 
 ### What This Means
 
 **You are free to:**
-- ✅ **Share** - Copy and redistribute the material in any medium or format
-- ✅ **Adapt** - Remix, transform, and build upon the material for any purpose, even commercially
-- ✅ **Use** - Use the material for any purpose, including commercial applications
+- **Share** - Copy and redistribute the material in any medium or format
+- **Adapt** - Remix, transform, and build upon the material for any purpose, even commercially
+- **Use** - Use the material for any purpose, including commercial applications
 
 **Under the following terms:**
-- 📝 **Attribution** - You must give appropriate credit to the original authors
-- 🔄 **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+- **Attribution** - You must give appropriate credit to the original authors
+- **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license
 
 ### Attribution Requirements
 
@@ -456,14 +457,14 @@ Licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
 
 The source content from the [Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page) is also licensed under Creative Commons Attribution-ShareAlike 4.0 International License, which allows us to use and adapt their comprehensive financial information while maintaining proper attribution.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 ### Primary Knowledge Sources
-**🏆 [Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page)** - The comprehensive financial knowledge base that makes this project possible. The Bogleheads community has created an invaluable resource covering investment strategies, retirement planning, tax considerations, and much more.
+**[Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page)** - The comprehensive financial knowledge base that makes this project possible. The Bogleheads community has created an invaluable resource covering investment strategies, retirement planning, tax considerations, and much more.
 
-**👨‍💼 Financial Experts** - Domain professionals who contribute their expertise through curated Q&A pairs, ensuring accuracy, relevance, and practical value for users.
+**Financial Experts** - Domain professionals who contribute their expertise through curated Q&A pairs, ensuring accuracy, relevance, and practical value for users.
 
-**📚 Trusted Financial Sources** - Various authoritative sources that provide the foundation for our knowledge base, including regulatory bodies, professional organizations, and educational institutions.
+**Trusted Financial Sources** - Various authoritative sources that provide the foundation for our knowledge base, including regulatory bodies, professional organizations, and educational institutions.
 
 ### Technical Infrastructure
 - [Mistral AI](https://mistral.ai/) for the powerful Mistral-7b language model
@@ -482,7 +483,7 @@ The source content from the [Bogleheads Wiki](https://www.bogleheads.org/wiki/Ma
 - Contributors to the Bogleheads investing philosophy
 - The open-source AI/ML community for making these tools accessible
 
-## 📞 Support
+## Support
 
 - **Issues**: Create a GitHub issue
 - **Questions**: Check the [QUICK_START.md](QUICK_START.md) guide
@@ -495,4 +496,4 @@ The source content from the [Bogleheads Wiki](https://www.bogleheads.org/wiki/Ma
 
 ---
 
-**📄 License**: This project is licensed under Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). See the [License section](#-license) above for details. 
+**License**: This project is licensed under Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). See the [License section](#license) above for details. 

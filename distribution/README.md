@@ -2,7 +2,7 @@
 
 This package contains curated Q&A pairs extracted from the Bogleheads Wiki, providing comprehensive financial knowledge for RAG (Retrieval-Augmented Generation) systems.
 
-## 📊 Package Information
+##  Package Information
 
 - **Version**: 1.0.0
 - **Created**: 2025-07-12T19:37:03.847474
@@ -12,7 +12,7 @@ This package contains curated Q&A pairs extracted from the Bogleheads Wiki, prov
 - **File Size**: 22,473 bytes
 - **Checksum**: `cd6d4cc6836cbe0b012983b1e6f64e50ab96ac422eda1a6d4f98a77e1c2b2ad8`
 
-## 📋 Categories Covered
+##  Categories Covered
 
 - **traditional_ira_basics**: 1 Q&A pairs - Basic information about Traditional IRAs
 - **traditional_ira_contributions**: 1 Q&A pairs - Traditional IRA contribution rules and limits
@@ -36,7 +36,7 @@ This package contains curated Q&A pairs extracted from the Bogleheads Wiki, prov
 - **account_comparisons**: 1 Q&A pairs - Comparisons between different account types
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Copy the data file** to your project:
    ```bash
@@ -53,7 +53,7 @@ This package contains curated Q&A pairs extracted from the Bogleheads Wiki, prov
    python install_qa_data.py
    ```
 
-## 📄 License and Attribution
+##  License and Attribution
 
 This data is licensed under **Creative Commons Attribution-ShareAlike 4.0 International License** (CC BY-SA 4.0).
 
@@ -67,7 +67,7 @@ Based on comprehensive financial information from the Bogleheads Wiki community
 Licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
 ```
 
-## 🏆 Source
+##  Source
 
 The Q&A pairs are extracted from the [Bogleheads Wiki](https://www.bogleheads.org/wiki/Main_Page), which provides comprehensive information about:
 
@@ -78,14 +78,14 @@ The Q&A pairs are extracted from the [Bogleheads Wiki](https://www.bogleheads.or
 - Risk management
 - And much more
 
-## 📈 Quality Assurance
+##  Quality Assurance
 
 - All Q&A pairs have been validated for accuracy
 - Context labels ensure proper topic separation
 - High confidence scores indicate reliable information
 - Structured format for easy integration
 
-## 🔧 Integration
+##  Integration
 
 This data is designed to work seamlessly with the Bogleheads RAG Pipeline. The structured format includes:
 
@@ -95,6 +95,6 @@ This data is designed to work seamlessly with the Bogleheads RAG Pipeline. The s
 - Confidence scores
 - Source attribution
 
-## 📞 Support
+##  Support
 
 For questions about this data package or integration help, please refer to the main project documentation.

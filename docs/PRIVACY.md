@@ -1,30 +1,30 @@
 # Privacy Policy
 
-## 🔒 Complete Privacy Assurance
+## Complete Privacy Assurance
 
 **Your financial data and queries remain 100% private and local to your computer.**
 
-## 🎯 Core Privacy Principles
+## Core Privacy Principles
 
-### 1. **Local-Only Execution**
-- ✅ All queries processed locally on your computer
-- ✅ No data transmitted to external services
-- ✅ No cloud-based processing or storage
-- ✅ Complete offline capability after initial setup
+### 1. Local-Only Execution
+- All queries processed locally on your computer
+- No data transmitted to external services
+- No cloud-based processing or storage
+- Complete offline capability after initial setup
 
-### 2. **No Data Collection**
-- ✅ No user queries stored or transmitted
-- ✅ No personal information collected
-- ✅ No usage analytics or telemetry
-- ✅ No model training data collection
+### 2. No Data Collection
+- No user queries stored or transmitted
+- No personal information collected
+- No usage analytics or telemetry
+- No model training data collection
 
-### 3. **No External Dependencies**
-- ✅ No API calls to OpenAI, Anthropic, or other services
-- ✅ No cloud-based embeddings or vector search
-- ✅ No external model inference
-- ✅ Self-contained system
+### 3. No External Dependencies
+- No API calls to OpenAI, Anthropic, or other services
+- No cloud-based embeddings or vector search
+- No external model inference
+- Self-contained system
 
-## 🏗️ Architecture Privacy Analysis
+## Architecture Privacy Analysis
 
 ### Local Components
 ```
@@ -46,35 +46,35 @@
 
 ### Network Activity Breakdown
 
-#### ✅ **Initial Setup Only** (One-time)
+#### Initial Setup Only (One-time)
 - **Model Download**: Mistral-7b (4GB) from Hugging Face
 - **Embedding Model**: sentence-transformers (~100MB) from Hugging Face
 - **Wiki Scraping**: Bogleheads Wiki content (optional, one-time)
 
-#### ❌ **Runtime Operations** (Zero Network Activity)
+#### Runtime Operations (Zero Network Activity)
 - **Query Processing**: 100% local
 - **Answer Generation**: 100% local
 - **Vector Search**: 100% local
 - **Data Storage**: 100% local
 
-## 📊 Privacy Verification
+## Privacy Verification
 
 ### What We Do NOT Do
-- ❌ Send your queries to external APIs
-- ❌ Store your questions or answers
-- ❌ Use your data for model training
-- ❌ Collect usage analytics
-- ❌ Share data with third parties
-- ❌ Require internet connection for queries
+- Send your queries to external APIs
+- Store your questions or answers
+- Use your data for model training
+- Collect usage analytics
+- Share data with third parties
+- Require internet connection for queries
 
 ### What We DO Do
-- ✅ Process all queries locally
-- ✅ Store data only on your computer
-- ✅ Use pre-trained models (no training)
-- ✅ Provide complete offline functionality
-- ✅ Respect your privacy completely
+- Process all queries locally
+- Store data only on your computer
+- Use pre-trained models (no training)
+- Provide complete offline functionality
+- Respect your privacy completely
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Local LLM Processing
 ```python
@@ -107,7 +107,7 @@ vector_store = Chroma(
 )
 ```
 
-## 🚀 Deployment Privacy
+## Deployment Privacy
 
 ### Minimal Deployment (Recommended)
 - **Size**: ~100MB total
@@ -127,7 +127,7 @@ vector_store = Chroma(
 - **Privacy**: Maximum privacy
 - **Setup**: 15 minutes
 
-## 🔍 Privacy Verification Steps
+## Privacy Verification Steps
 
 ### 1. **Network Monitoring**
 You can verify no network activity during queries:
@@ -155,28 +155,28 @@ sudo inotifywait -m /path/to/your/rag/project
 # All activity should be local file reads/writes
 ```
 
-## 📋 Privacy Compliance
+## Privacy Compliance
 
 ### GDPR Compliance
-- ✅ **Data Minimization**: Only processes what you provide
-- ✅ **Local Processing**: No data leaves your computer
-- ✅ **No Profiling**: No user behavior analysis
-- ✅ **Right to Deletion**: Simply delete local files
-- ✅ **Transparency**: Open source, inspectable code
+- **Data Minimization**: Only processes what you provide
+- **Local Processing**: No data leaves your computer
+- **No Profiling**: No user behavior analysis
+- **Right to Deletion**: Simply delete local files
+- **Transparency**: Open source, inspectable code
 
 ### HIPAA Considerations
-- ✅ **No PHI Transmission**: No data leaves your system
-- ✅ **Local Storage**: All data remains on your computer
-- ✅ **No Third Parties**: No external data processors
-- ✅ **Audit Trail**: Local logs only
+- **No PHI Transmission**: No data leaves your system
+- **Local Storage**: All data remains on your computer
+- **No Third Parties**: No external data processors
+- **Audit Trail**: Local logs only
 
 ### Financial Privacy
-- ✅ **No Financial Data Collection**: We don't collect any financial information
-- ✅ **Local Processing**: Your financial queries stay private
-- ✅ **No Data Sharing**: No sharing with financial institutions
-- ✅ **Secure Local Storage**: Data encrypted at rest (if you enable it)
+- **No Financial Data Collection**: We don't collect any financial information
+- **Local Processing**: Your financial queries stay private
+- **No Data Sharing**: No sharing with financial institutions
+- **Secure Local Storage**: Data encrypted at rest (if you enable it)
 
-## 🛡️ Security Features
+## Security Features
 
 ### Data Protection
 - **Local Storage**: All data stored on your computer
@@ -190,7 +190,7 @@ sudo inotifywait -m /path/to/your/rag/project
 - **No Fine-tuning**: Models remain unchanged
 - **Version Control**: Specific model versions for reproducibility
 
-## 🔄 Updates and Improvements
+## Updates and Improvements
 
 ### How Improvements Are Made
 - **Bug Reports**: Users submit bug reports via GitHub issues
@@ -204,7 +204,7 @@ sudo inotifywait -m /path/to/your/rag/project
 - **Version Control**: Specific versions for reproducibility
 - **Backward Compatibility**: Updates don't break existing setups
 
-## 📞 Privacy Support
+## Privacy Support
 
 ### Questions About Privacy
 If you have privacy concerns:
@@ -220,19 +220,19 @@ To verify privacy claims:
 3. **Process Analysis**: Check running processes
 4. **File System Monitoring**: Track file operations
 
-## 📜 Privacy Statement
+## Privacy Statement
 
 ### Official Statement
 **"This Financial Knowledge RAG Pipeline operates entirely locally on your computer. All queries, data processing, and answer generation happen locally without any external network communication. No user data is collected, stored, transmitted, or used for model training. The system is designed for maximum privacy and security, ensuring your financial information remains completely private."**
 
 ### Key Points
-- ✅ **100% Local Processing**: No external dependencies during queries
-- ✅ **No Data Collection**: Zero user data collection or storage
-- ✅ **No Model Training**: Pre-trained models only, no learning from your data
-- ✅ **Complete Privacy**: Your financial queries remain private
-- ✅ **Open Source**: Fully inspectable code for transparency
+- **100% Local Processing**: No external dependencies during queries
+- **No Data Collection**: Zero user data collection or storage
+- **No Model Training**: Pre-trained models only, no learning from your data
+- **Complete Privacy**: Your financial queries remain private
+- **Open Source**: Fully inspectable code for transparency
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [README.md](README.md) - Main project documentation
 - [RAG_BEST_PRACTICES.md](RAG_BEST_PRACTICES.md) - Technical best practices

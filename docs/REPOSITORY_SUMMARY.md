@@ -2,7 +2,7 @@
 
 This document explains what's included and excluded from the Git repository, and how others can replicate your setup.
 
-## 📦 What's Included in Git
+##  What's Included in Git
 
 ### Core Scripts (Essential)
 - `structured_rag_pipeline.py` - Main RAG pipeline with structured Q&A
@@ -29,7 +29,7 @@ This document explains what's included and excluded from the Git repository, and
 ### Configuration
 - `.gitignore` - Excludes large files and generated data
 
-## ❌ What's Excluded from Git
+##  What's Excluded from Git
 
 ### Large Files (Auto-downloaded)
 - `mistral-7b-instruct-v0.1.Q4_K_M.gguf` (4GB) - Downloaded by setup script
@@ -48,7 +48,7 @@ This document explains what's included and excluded from the Git repository, and
 - `data_quality_report_fixes.json` (1.3MB) - Generated reports
 - `comparison_results/` - Test results
 
-## 🚀 How Others Replicate Your Setup
+##  How Others Replicate Your Setup
 
 ### Option 1: Automated Setup (Recommended)
 ```bash
@@ -58,11 +58,11 @@ python setup_repository.py
 ```
 
 This will:
-1. ✅ Install dependencies
-2. ✅ Download the 4GB model file
-3. ✅ Create sample Q&A data
-4. ✅ Set up directories
-5. ✅ Create quick start guide
+1.  Install dependencies
+2.  Download the 4GB model file
+3.  Create sample Q&A data
+4.  Set up directories
+5.  Create quick start guide
 
 ### Option 2: Manual Setup
 ```bash
@@ -81,7 +81,7 @@ python data_preprocessor.py
 python comprehensive_qa_generator.py
 ```
 
-## 📊 Repository Size Breakdown
+##  Repository Size Breakdown
 
 ### Included in Git (~2MB)
 - Python scripts: ~200KB
@@ -95,7 +95,7 @@ python comprehensive_qa_generator.py
 - Processed documents: ~50MB
 - Raw wiki pages: ~100MB
 
-## 🎯 Benefits of This Structure
+##  Benefits of This Structure
 
 ### For Contributors
 - **Small repository**: Easy to clone and work with
@@ -109,7 +109,7 @@ python comprehensive_qa_generator.py
 - **Efficient**: Only downloads what's needed
 - **Maintainable**: Clear what's code vs data
 
-## 🔧 Customization Options
+##  Customization Options
 
 ### Using Your Existing Data
 If you want to include your full knowledge base:
@@ -137,7 +137,7 @@ python scrape_bogleheads_wiki.py
 python comprehensive_qa_generator.py
 ```
 
-## 📈 Performance Comparison
+##  Performance Comparison
 
 ### Repository Size
 | Approach | Git Size | Total Size | Setup Time |
@@ -154,7 +154,7 @@ python comprehensive_qa_generator.py
 | **Storage** | 4GB total | 4GB total |
 | **Flexibility** | High | Low |
 
-## 🛠️ Maintenance
+## Maintenance
 
 ### Regular Tasks
 1. **Update Q&A pairs**: Use content manager
@@ -171,18 +171,18 @@ python comprehensive_qa_generator.py
 ## 🎉 Success Metrics
 
 ### For Contributors
-- ✅ Easy to clone and setup
-- ✅ Sample data works immediately
-- ✅ Clear contribution guidelines
-- ✅ Automated setup process
+-  Easy to clone and setup
+-  Sample data works immediately
+-  Clear contribution guidelines
+-  Automated setup process
 
 ### For Users
-- ✅ Quick start with sample data
-- ✅ Option to expand knowledge base
-- ✅ Clear documentation
-- ✅ Working pipeline out of the box
+-  Quick start with sample data
+-  Option to expand knowledge base
+-  Clear documentation
+-  Working pipeline out of the box
 
-## 📞 Support
+##  Support
 
 ### For Contributors
 - Check `CONTRIBUTING.md` for guidelines

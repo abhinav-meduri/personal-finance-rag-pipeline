@@ -2,7 +2,7 @@
 
 This guide covers the best practices for building, deploying, and maintaining Retrieval-Augmented Generation (RAG) pipelines, with specific recommendations for financial knowledge systems.
 
-## 🎯 Core Principles
+##  Core Principles
 
 ### 1. **Data Source Strategy**
 - **Primary**: Curated, high-quality Q&A pairs
@@ -19,7 +19,7 @@ This guide covers the best practices for building, deploying, and maintaining Re
 - **Standard**: QA + documents (~200MB)
 - **Full**: Everything (~300MB)
 
-## 🏗️ Architecture Patterns
+##  Architecture Patterns
 
 ### Pattern 1: QA-First RAG (Recommended)
 ```
@@ -72,7 +72,7 @@ User Query → Document Search → Generate Answer
 - Research assistants
 - Systems with frequently changing content
 
-## 📊 Deployment Strategies
+##  Deployment Strategies
 
 ### Strategy 1: Minimal Deployment
 **Target Users:** Most users, resource-constrained environments
@@ -88,16 +88,16 @@ python setup_hybrid_rag.py --type minimal
 ```
 
 **Pros:**
-- ✅ Fastest setup (~5 minutes)
-- ✅ Smallest footprint (~100MB)
-- ✅ High accuracy for covered topics
-- ✅ Easy maintenance
-- ✅ Works offline
+-  Fastest setup (~5 minutes)
+-  Smallest footprint (~100MB)
+-  High accuracy for covered topics
+-  Easy maintenance
+-  Works offline
 
 **Cons:**
-- ❌ Limited coverage
-- ❌ Requires curation
-- ❌ May miss edge cases
+-  Limited coverage
+-  Requires curation
+-  May miss edge cases
 
 ### Strategy 2: Standard Deployment
 **Target Users:** Power users, balanced approach
@@ -113,15 +113,15 @@ python setup_hybrid_rag.py --type standard
 ```
 
 **Pros:**
-- ✅ Comprehensive coverage
-- ✅ Balanced performance
-- ✅ Graceful fallback
-- ✅ Good accuracy
+-  Comprehensive coverage
+-  Balanced performance
+-  Graceful fallback
+-  Good accuracy
 
 **Cons:**
-- ⚠️ Larger footprint (~200MB)
-- ⚠️ Requires document setup
-- ⚠️ Slower than QA-only
+- Larger footprint (~200MB)
+- Requires document setup
+- Slower than QA-only
 
 ### Strategy 3: Full Deployment
 **Target Users:** Advanced users, maximum coverage
@@ -137,16 +137,16 @@ python setup_hybrid_rag.py --type full
 ```
 
 **Pros:**
-- ✅ Maximum coverage
-- ✅ Best performance
-- ✅ Complete functionality
+-  Maximum coverage
+-  Best performance
+-  Complete functionality
 
 **Cons:**
-- ⚠️ Largest footprint (~300MB)
-- ⚠️ Complex setup
-- ⚠️ Resource intensive
+- Largest footprint (~300MB)
+- Complex setup
+- Resource intensive
 
-## 🔧 Implementation Best Practices
+##  Implementation Best Practices
 
 ### 1. **Data Quality**
 ```python
@@ -224,7 +224,7 @@ Answer: [/INST]"""
 prompt = f"Answer this question: {question}"
 ```
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 ### 1. **Embedding Model Selection**
 ```python
@@ -277,7 +277,7 @@ def get_cached_embedding(text):
     return embedding_cache[text]
 ```
 
-## 🚀 Deployment Best Practices
+##  Deployment Best Practices
 
 ### 1. **Environment Setup**
 ```bash
@@ -328,7 +328,7 @@ def ask_question(query):
         return "I'm sorry, I encountered an error. Please try again."
 ```
 
-## 📊 Monitoring and Maintenance
+##  Monitoring and Maintenance
 
 ### 1. **Performance Metrics**
 ```python
@@ -377,7 +377,7 @@ def update_qa_data(new_qa_pairs):
     rebuild_qa_vector_store()
 ```
 
-## 🎯 Recommendations by Use Case
+##  Recommendations by Use Case
 
 ### Financial Advice System
 **Recommended Pattern:** QA-First RAG
@@ -421,7 +421,7 @@ def update_qa_data(new_qa_pairs):
 - Adaptive responses
 - Learning from interactions
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [ChromaDB Documentation](https://docs.trychroma.com/)

@@ -104,16 +104,16 @@ git tag -a v1.0.0 -m "Version 1.0.0: Initial stable release
 First public release of Personal Finance RAG Pipeline.
 
 Key Features:
-✅ Privacy-first: 100% local processing
-✅ Hybrid approach: Tiered retrieval strategy
-✅ Package support: Install via pip
-✅ Comprehensive docs: 15+ documentation files
-✅ Well organized: Professional structure
-✅ Test suite: Comprehensive testing
-✅ Small repository: <50MB
-✅ Easy setup: Automated setup scripts
-✅ Verbosity control: Quiet or verbose modes
-✅ Quality assured: Data validation included
+Privacy-first: 100% local processing
+Hybrid approach: Tiered retrieval strategy
+Package support: Install via pip
+Comprehensive docs: 15+ documentation files
+Well organized: Professional structure
+Test suite: Comprehensive testing
+Small repository: <50MB
+Easy setup: Automated setup scripts
+Verbosity control: Quiet or verbose modes
+Quality assured: Data validation included
 
 Based on trusted sources like Bogleheads Wiki.
 Powered by Mistral-7B and LangChain.
@@ -168,14 +168,14 @@ A privacy-first, locally-run RAG (Retrieval-Augmented Generation) system for fin
 
 ## Key Features
 
-✅ **100% Local Processing** - Your data never leaves your computer
-✅ **Hybrid RAG Approach** - Tiered retrieval: Q&A data → Documents → Base LLM
-✅ **Easy Installation** - `pip install -e .` and you're ready
-✅ **Console Commands** - `financial-rag`, `financial-rag-structured`, `financial-qa-manager`
-✅ **Comprehensive Knowledge** - 26+ Q&A pairs covering 50+ financial categories
-✅ **Trusted Sources** - Based on Bogleheads Wiki and other reliable sources
-✅ **Professional Structure** - Well-organized, maintainable codebase
-✅ **Complete Documentation** - 15+ guides and references
+**100% Local Processing** - Your data never leaves your computer
+**Hybrid RAG Approach** - Tiered retrieval: Q&A data → Documents → Base LLM
+**Easy Installation** - `pip install -e .` and you're ready
+**Console Commands** - `financial-rag`, `financial-rag-structured`, `financial-qa-manager`
+**Comprehensive Knowledge** - 26+ Q&A pairs covering 50+ financial categories
+**Trusted Sources** - Based on Bogleheads Wiki and other reliable sources
+**Professional Structure** - Well-organized, maintainable codebase
+**Complete Documentation** - 15+ guides and references
 
 ## Quick Start
 
@@ -236,7 +236,7 @@ CC BY-SA 4.0 - See [LICENSE](LICENSE)
 ## Step 10: Add Repository Topics
 
 1. Go to repository main page
-2. Click "⚙️" next to "About"
+2. Click "" next to "About"
 3. Add topics:
    - `rag`
    - `retrieval-augmented-generation`
@@ -274,39 +274,39 @@ Add these to the top of README.md:
 
 After pushing, verify:
 
-- [ ] Repository appears on GitHub
-- [ ] README displays correctly
-- [ ] No large files in repository (check repo size)
-- [ ] All directories are present (src/, scripts/, tests/, docs/, data/)
-- [ ] .gitignore is working (no vector_db/, processed_data/, etc.)
-- [ ] License file is visible
-- [ ] Topics are added
-- [ ] Release v1.0.0 is created
-- [ ] Clone works: `git clone https://github.com/abhinav-meduri/personal-finance-rag-pipeline.git`
-- [ ] Installation works: `pip install -e .`
-- [ ] Console scripts work: `financial-rag --help`
+-  Repository appears on GitHub
+-  README displays correctly
+-  No large files in repository (check repo size)
+-  All directories are present (src/, scripts/, tests/, docs/, data/)
+-  .gitignore is working (no vector_db/, processed_data/, etc.)
+-  License file is visible
+-  Topics are added
+-  Release v1.0.0 is created
+-  Clone works: `git clone https://github.com/abhinav-meduri/personal-finance-rag-pipeline.git`
+-  Installation works: `pip install -e .`
+-  Console scripts work: `financial-rag --help`
 
 ---
 
 ## Post-Release Tasks
 
 ### Immediate
-- [ ] Star your own repository (optional)
-- [ ] Share on social media (optional)
-- [ ] Add to your GitHub profile README (optional)
+-  Star your own repository (optional)
+-  Share on social media (optional)
+-  Add to your GitHub profile README (optional)
 
 ### Soon
-- [ ] Set up GitHub Issues templates
-- [ ] Create Pull Request template
-- [ ] Add CODE_OF_CONDUCT.md
-- [ ] Set up GitHub Discussions (optional)
-- [ ] Add CONTRIBUTORS.md as people contribute
+-  Set up GitHub Issues templates
+-  Create Pull Request template
+-  Add CODE_OF_CONDUCT.md
+-  Set up GitHub Discussions (optional)
+-  Add CONTRIBUTORS.md as people contribute
 
 ### Monitor
-- [ ] Watch for issues from users
-- [ ] Respond to questions
-- [ ] Review pull requests
-- [ ] Plan v1.1.0 features
+-  Watch for issues from users
+-  Respond to questions
+-  Review pull requests
+-  Plan v1.1.0 features
 
 ---
 
@@ -343,5 +343,5 @@ Your Personal Finance RAG Pipeline is now live on GitHub!
 
 **Repository:** https://github.com/abhinav-meduri/personal-finance-rag-pipeline
 
-Share it with the world! 🚀
+Share it with the world! 
 

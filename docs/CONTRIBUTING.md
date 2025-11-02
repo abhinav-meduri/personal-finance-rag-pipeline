@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the Financial Knowledge RAG Pipeline! This guide will help you get started, whether you're a developer, financial expert, or domain specialist.
 
-## 🚀 Quick Start for Contributors
+## Quick Start for Contributors
 
 1. **Fork and Clone**
    ```bash
@@ -20,7 +20,7 @@ Thank you for your interest in contributing to the Financial Knowledge RAG Pipel
    python structured_rag_pipeline.py --qa-data sample_qa_data.json --question "What is a Roth IRA?"
    ```
 
-## 📋 Types of Contributions
+## Types of Contributions
 
 ### 1. Financial Expert Q&A Curation (Recommended)
 
@@ -155,7 +155,7 @@ python data_quality_checker.py
 - `vector_db_setup.py`: Vector database creation
 - `data_quality_checker.py`: Data validation
 
-## 🏗️ Development Setup
+## Development Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -192,7 +192,7 @@ python structured_rag_pipeline.py --question "What is a Roth IRA?"
 python qa_content_manager.py --validate
 ```
 
-## 📝 Content Guidelines
+## Content Guidelines
 
 ### Q&A Pair Standards
 
@@ -251,7 +251,7 @@ Use these established categories:
 - Avoid unnecessary jargon
 - Structure answers logically
 
-## 🔧 Code Guidelines
+## Code Guidelines
 
 ### Python Style
 - Follow PEP 8 style guidelines
@@ -269,7 +269,7 @@ Use these established categories:
 - Ensure existing tests pass
 - Test edge cases and error conditions
 
-## 📊 Contribution Workflow
+## Contribution Workflow
 
 ### 1. Content Contributions
 
@@ -307,7 +307,7 @@ Use these established categories:
 - Update QUICK_START.md if needed
 - Create examples for new features
 
-## 🧪 Testing Guidelines
+## Testing Guidelines
 
 ### Running Tests
 ```bash
@@ -325,7 +325,7 @@ python qa_content_manager.py --validate
 - Test error conditions
 - Verify performance impact
 
-## 📈 Performance Considerations
+## Performance Considerations
 
 ### Memory Usage
 - Monitor memory usage with large datasets
@@ -337,7 +337,7 @@ python qa_content_manager.py --validate
 - Optimize embedding generation
 - Cache frequently used data
 
-## 🚨 Common Issues
+## Common Issues
 
 ### Data Quality Issues
 - **Duplicate Q&A pairs**: Use `qa_content_manager.py --validate`
@@ -349,7 +349,7 @@ python qa_content_manager.py --validate
 - **Memory issues**: Monitor RAM usage
 - **Performance problems**: Profile and optimize
 
-## 📞 Getting Help
+## Getting Help
 
 ### Before Asking
 1. Check the README.md
@@ -363,7 +363,7 @@ python qa_content_manager.py --validate
 3. Provide system information
 4. Show what you've tried
 
-## 🎯 Contribution Ideas
+## Contribution Ideas
 
 ### High Priority
 - Add more IRA and 401(k) Q&A pairs
@@ -383,13 +383,13 @@ python qa_content_manager.py --validate
 - Add healthcare planning topics
 - Enhance education planning content
 
-## 👨‍💼 Financial Expert Contribution Guide
+## Financial Expert Contribution Guide
 
 ### For Financial Professionals, Advisors, and Domain Experts
 
 Your expertise is invaluable to this project. Here's how you can contribute effectively:
 
-#### 🎯 What We Need from Experts
+#### What We Need from Experts
 
 **1. Content Curation**
 - Review and improve existing Q&A pairs
@@ -409,7 +409,7 @@ Your expertise is invaluable to this project. Here's how you can contribute effe
 - Add regional or jurisdiction-specific information
 - Provide real-world examples and scenarios
 
-#### 📋 Expert Contribution Process
+#### Expert Contribution Process
 
 **Step 1: Setup (One-time)**
 ```bash
@@ -465,7 +465,7 @@ git commit -m "Add expert-curated Q&A pairs for [your specialty]"
 git push origin expert-contributions-[your-name]
 ```
 
-#### 🏆 Expert Contribution Categories
+#### Expert Contribution Categories
 
 **Tax Professionals**
 - Annual contribution limit updates
@@ -497,7 +497,7 @@ git push origin expert-contributions-[your-name]
 - Rebalancing approaches
 - Tax-efficient investing
 
-#### 📝 Expert Content Standards
+#### Expert Content Standards
 
 **Question Quality**
 - Address real client concerns
@@ -517,7 +517,7 @@ git push origin expert-contributions-[your-name]
 - Add new categories when needed
 - Maintain consistency with existing structure
 
-#### 🤝 Expert Recognition
+#### Expert Recognition
 
 **Attribution**
 - Your name will be credited in the metadata
@@ -536,7 +536,7 @@ git push origin expert-contributions-[your-name]
 - Professional standards are maintained
 - Continuous improvement through feedback
 
-#### 📞 Expert Support
+#### Expert Support
 
 **Getting Help**
 - Use GitHub Issues for technical questions
@@ -552,7 +552,7 @@ git push origin expert-contributions-[your-name]
 
 ---
 
-## 📄 License
+## License
 
 ### What This Means for Contributors
 

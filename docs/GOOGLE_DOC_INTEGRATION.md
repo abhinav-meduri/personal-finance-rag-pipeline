@@ -2,25 +2,25 @@
 
 This guide shows you how to integrate your Google Doc "Financial Advice for a 20-year-old" into your RAG pipeline.
 
-## 🎯 **Integration Options**
+##  **Integration Options**
 
 ### **Option 1: Q&A Pairs Only (Recommended for Start)**
-- ✅ Fastest setup
-- ✅ Highest accuracy for common questions
-- ✅ Easy to manage and update
-- ✅ Perfect for structured advice
+-  Fastest setup
+-  Highest accuracy for common questions
+-  Easy to manage and update
+-  Perfect for structured advice
 
 ### **Option 2: Document Chunks Only**
-- ✅ Comprehensive coverage
-- ✅ Detailed answers for complex questions
-- ✅ Good for in-depth explanations
+-  Comprehensive coverage
+-  Detailed answers for complex questions
+-  Good for in-depth explanations
 
 ### **Option 3: Both Q&A + Document Chunks (Best Coverage)**
-- ✅ Maximum coverage and accuracy
-- ✅ Fast responses for common questions
-- ✅ Detailed answers for complex queries
+-  Maximum coverage and accuracy
+-  Fast responses for common questions
+-  Detailed answers for complex queries
 
-## 📋 **Step-by-Step Process**
+##  **Step-by-Step Process**
 
 ### **Step 1: Extract Content from Google Doc**
 
@@ -64,7 +64,7 @@ python hybrid_rag_pipeline.py --question "How should a 20-year-old start investi
 python hybrid_rag_pipeline.py
 ```
 
-## 🔧 **Example Usage**
+##  **Example Usage**
 
 ### **Example 1: Quick Q&A Integration**
 
@@ -98,7 +98,7 @@ python setup_hybrid_rag.py --type full
 python hybrid_rag_pipeline.py
 ```
 
-## 📊 **What the Processor Does**
+##  **What the Processor Does**
 
 ### **Q&A Extraction**
 - Identifies key financial topics (budgeting, saving, investing, etc.)
@@ -127,7 +127,7 @@ The processor automatically detects these financial topics:
 - Financial goal setting
 - Risk management
 
-## 🎯 **Customization Options**
+##  **Customization Options**
 
 ### **Custom Question Templates**
 You can modify the question templates in `google_doc_processor.py`:
@@ -162,7 +162,7 @@ if len(section.strip()) < 50:  # Change this value
 if answer and len(answer) > 20:  # Change this value
 ```
 
-## 🔍 **Quality Control**
+##  **Quality Control**
 
 ### **Review Generated Q&A Pairs**
 ```bash
@@ -185,7 +185,7 @@ python hybrid_rag_pipeline.py --question "How much should I save for an emergenc
 python hybrid_rag_pipeline.py --question "What about student loan forgiveness?"
 ```
 
-## 📈 **Expected Results**
+##  **Expected Results**
 
 ### **Typical Output**
 - **5-15 Q&A pairs** from a standard Google Doc
@@ -197,7 +197,7 @@ python hybrid_rag_pipeline.py --question "What about student loan forgiveness?"
 - **Memory Usage**: +50-100MB (minimal increase)
 - **Accuracy**: Improved for 20-year-old specific questions
 
-## 🚨 **Troubleshooting**
+##  **Troubleshooting**
 
 ### **Common Issues**
 
@@ -224,27 +224,27 @@ For important content, consider manually adding Q&A pairs:
 python qa_content_manager.py --add
 ```
 
-## 🎯 **Best Practices**
+##  **Best Practices**
 
 ### **Content Preparation**
-- ✅ Use clear headings and structure
-- ✅ Include specific examples and numbers
-- ✅ Focus on actionable advice
-- ✅ Use consistent terminology
+-  Use clear headings and structure
+-  Include specific examples and numbers
+-  Focus on actionable advice
+-  Use consistent terminology
 
 ### **Integration Strategy**
-- ✅ Start with Q&A pairs only
-- ✅ Test thoroughly before adding documents
-- ✅ Monitor performance impact
-- ✅ Update regularly as content changes
+-  Start with Q&A pairs only
+-  Test thoroughly before adding documents
+-  Monitor performance impact
+-  Update regularly as content changes
 
 ### **Quality Assurance**
-- ✅ Review generated Q&A pairs
-- ✅ Test with real questions
-- ✅ Validate accuracy and relevance
-- ✅ Update categories as needed
+-  Review generated Q&A pairs
+-  Test with real questions
+-  Validate accuracy and relevance
+-  Update categories as needed
 
-## 📞 **Support**
+##  **Support**
 
 - **Processing Issues**: Check the script output for errors
 - **Integration Problems**: Review the troubleshooting section

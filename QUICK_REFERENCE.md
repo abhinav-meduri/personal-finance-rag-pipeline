@@ -2,7 +2,7 @@
 
 Quick reference for common tasks in the reorganized structure.
 
-## 🚀 Running the Pipeline
+##  Running the Pipeline
 
 ### Hybrid RAG Pipeline (Recommended)
 ```bash
@@ -28,7 +28,7 @@ python src/core/structured_rag_pipeline.py --qa-data data/qa/comprehensive_qa_da
 financial-rag-structured
 ```
 
-## 📊 Managing Q&A Data
+##  Managing Q&A Data
 
 ### Add New Q&A Pair
 ```bash
@@ -52,7 +52,7 @@ python src/utils/qa_content_manager.py --validate
 python src/utils/qa_content_manager.py --export traditional_ira_basics
 ```
 
-## 🔧 Setup and Installation
+##  Setup and Installation
 
 ### First Time Setup
 ```bash
@@ -68,7 +68,7 @@ python scripts/setup/setup_repository.py
 pip install -e ".[dev]"
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run All Tests
 ```bash
@@ -108,7 +108,7 @@ python src/generators/comprehensive_qa_generator.py
 python src/generators/google_doc_processor.py --input examples/financial_advice_20yo.txt
 ```
 
-## 🗄️ Vector Database
+## Vector Database
 
 ### Setup Vector Database
 ```bash
@@ -120,7 +120,7 @@ python src/utils/vector_db_setup.py
 python src/pipelines/setup_hybrid_rag.py
 ```
 
-## 📦 Distribution
+##  Distribution
 
 ### Create Distribution Package
 ```bash
@@ -166,7 +166,7 @@ python distribution/install_qa_data.py
 - `docs/QUICK_START.md` - Getting started
 - `docs/RAG_BEST_PRACTICES.md` - Best practices
 
-## 🔍 Common Issues
+##  Common Issues
 
 ### Import Errors
 If you get import errors, install the package:
@@ -193,7 +193,7 @@ Make scripts executable:
 chmod +x scripts/tools/binary_files_checker.sh
 ```
 
-## 📚 Documentation
+##  Documentation
 
 ### Main Documentation
 - `README.md` - Project overview
@@ -209,7 +209,7 @@ chmod +x scripts/tools/binary_files_checker.sh
 - `docs/GOOGLE_DOC_INTEGRATION.md` - Google Doc integration
 - `docs/TRUSTED_SOURCES_GUIDE.md` - Trusted sources
 
-## 🎯 Quick Commands Cheatsheet
+##  Quick Commands Cheatsheet
 
 ```bash
 # Run pipeline
@@ -251,7 +251,7 @@ python src/utils/vector_db_setup.py
 4. Review `docs/` for specific guides
 5. Open an issue on GitHub
 
-## 📝 Notes
+##  Notes
 
 - All commands assume you're in the project root directory
 - Use `--verbose` flag for debugging
